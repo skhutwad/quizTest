@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Project</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <!--Page1-->
+    <div class="container">
+        
+        <div class="content">
+            <input type="text" name="name" id="username" placeholder="Enter Your Name">
+                     
+            <select name="" id="topic">                
+                <option value="" selected disabled>Select topic</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+            </select>
+            <button type="button" id="submit" >Start</button>
+        </div>
+    </div>
+    <!--page2-->
+    <div class="questionContainer">
+
+        <p>what is CSS?</p>
+        <div>
+            <input type="radio" name="option1" id="option1" value="CascadeSS">
+            <label for="option1">Cascading Style Sheet</label>
+        </div>
+        <div>
+            <input type="radio" name="option1" id="option2" value="html">
+            <label for="option1">Langauge to stucture the page.</label>
+        </div>
+
+        <div>
+            <button type="button" id="next">Next</button>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
